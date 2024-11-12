@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #94d2bd;
+        }
+
+        /* Main Content Styling */
+        main {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: start;
+            align-items: flex-start;
+            max-width: 800px;
+            margin: 120px auto 40px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .bio-photo {
+            max-width: 150px; /* Adjusted to avoid clipping */
+            margin-right: 30px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            flex-shrink: 0; /* Prevent the image from shrinking too much */
+        }
+
+        .bio-content {
+            max-width: calc(100% - 180px); /* Make sure the text area fits next to the image */
+            text-align: left;
+        }
+
+        h2 {
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header with navigation-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content about me -->
+    <main>
+        <img src="TylerPicture.jpg" alt="A photo of Tyler Higgins" class="bio-photo">
+
+        <div class="bio-content">
+            <h2>About Tyler Higgins</h2>
+            <p>Hello! My name is Tyler Higgins, I am currently a student at Kennesaw State University. Growing up I spent most of my time on the family computer. When I was 8, my uncle got me my very own case and parts to build my own PC. With his help I built my very first computer. This is where my interest for technology began.</p>
+
+            <p>I am currently pursing my degree at KSU in Information Technology, and plan to begin my masters in Cybersecurity upon completion of my bachelors. During my time at KSU, I have engaged in a variety of projects that allowed me to combine my creativity with my technical skills. I am particularly interested in data center operations, and network engineering. The Tech industry surrounding healthcare also interests me. Upon Graduation I would like to work my way into an area of the IT field where I can make a difference and support a company with a meaningful cause.</p>
+
+            <p>Outside of school I enjoy many hobbies. I enjoy spending time golfing and constantly driving myself to further my skills on the course. I enjoy film photography and developing my own film im my home darkroom. I also enjoy spending time with my best friend Luna, my 2 year old pug.</p>
+
+            <p>I am eager to learn more and am currently looking for a internship or apprenticeship in the IT industry. Feel free to connect with me through the contact form on this site if you’d like to learn more!</p>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Tyler Higgins</p>
+    </footer>
+</body>
+
+</html>
